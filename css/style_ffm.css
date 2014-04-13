@@ -1,0 +1,95 @@
+body {
+  padding-top: 70px;
+}
+
+
+/*** navigation ***/
+
+.navbar-default .navbar-link {
+    color: #777;
+}
+.navbar-default .navbar-link:hover {
+    color: #333;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #ddd;
+}
+.navbar-inverse .navbar-brand {
+    color: #999;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #999;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+    color: #999;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #999;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #999;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #999;
+    background-color: #fff;
+}
+.navbar-inverse .navbar-nav>.disabled>a, .navbar-inverse .navbar-nav>.disabled>a:hover, .navbar-inverse .navbar-nav>.disabled>a:focus {
+    color: #444;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #999;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #fff;
+     border-color: #666;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #999;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ddd;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #fff;
+    color: #fff;
+}
+@media (max-width:767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
+        border-color: #ddd;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+        background-color: #080808;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #999;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #fff;
+        background-color: transparent;
+    }
+}
+@media (min-width:767px) {
+    ul.nav li.dropdown:hover ul.dropdown-menu{
+        display: block;
+        margin-top:0px
+    }
+    .navbar {
+      -webkit-box-shadow: 0 5px 20px 2px #ededed;
+      box-shadow: 0 5px 20px 2px #ededed;
+    }
+}
+
+@media (max-width:767px) {
+    .navbar {
+        background: rgba(255, 255, 255, 0.9);
+    }
+    .navbar-form {
+        border: none;
+        margin: 0;
+        padding: 5px;
+    }
+}
